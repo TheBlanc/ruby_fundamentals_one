@@ -1,7 +1,7 @@
 puts "Hello, please enter your age"
 user_age = gets.to_i
 
-if user_age > 105
+if user_age > 105 || user_age == 0
   puts "#{user_age}? I'm not sure I believe you..."
 elsif user_age > 29
   puts "#{user_age} eh? So you are #{user_age - 29} years older than me!"
